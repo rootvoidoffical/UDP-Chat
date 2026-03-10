@@ -1,12 +1,12 @@
 # UDP-Chat
 ##1st Step
-```
+```bash
 sudo apt install python3
 ```
 
 ##Make a new file like "file.py" and copy this script , paste it. 
 ##Note it only run in the same network.
-```
+```bash
 import socket
 import threading
 from datetime import datetime
@@ -84,6 +84,6 @@ while True:
     sock.sendto(msg.encode(), (TARGET_IP, TARGET_PORT))
 ```
 ## After it; Type this for run the script....
-```
+```bash
 python3 filename.py
 ```
