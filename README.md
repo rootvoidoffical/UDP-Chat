@@ -23,8 +23,8 @@ def print_logo():
     # Clears the screen for a fresh start
     os.system('clear' if os.name != 'nt' else 'cls')
     
-    # You can change 'Mohammad Ahmad' to your actual name/handle
-    author_name = "Mohammad Ahmad"
+    # You can change 'ROOT VOID' to your actual name/handle
+    author_name = "ROOT VOID"
     
     logo = f"""
 {CYAN}    #################################################
