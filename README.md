@@ -1,7 +1,12 @@
 # UDP-Chat
-# MAke a new file and cpoy this script , paste it.
-# Note it only run in the same network.
-```bash
+##1st Step
+```
+sudo apt install python3
+```
+
+##Make a new file like "file.py" and copy this script , paste it. 
+##Note it only run in the same network.
+```
 import socket
 import threading
 from datetime import datetime
@@ -76,4 +81,9 @@ print(f"{CYAN}" + "-" * 49 + f"{RESET}")
 while True:
     msg = input("You: ")
     save_to_log("You", msg)
-    sock.sendto(msg.encode(), (TARGET_IP, TARGET_PORT))```
+    sock.sendto(msg.encode(), (TARGET_IP, TARGET_PORT))
+```
+## After it; Type this for run the script....
+```
+python3 filename.py
+```
